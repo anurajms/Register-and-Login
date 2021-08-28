@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseRealtimeDataBaseExample">
         <activity
+            android:name=".DatabaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignedInActivity"
+            android:exported="true" />
+        <activity
             android:name=".Login"
             android:exported="true">
             <intent-filter>
@@ -17,13 +23,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".Register"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

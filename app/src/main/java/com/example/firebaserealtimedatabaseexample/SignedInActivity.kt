@@ -19,6 +19,9 @@ class SignedInActivity : AppCompatActivity() {
             finish()
 
         }
+        btn_viewRecordInDB.setOnClickListener {
+            startActivity(Intent(this,DatabaseActivity::class.java))
+        }
 
     }
 }

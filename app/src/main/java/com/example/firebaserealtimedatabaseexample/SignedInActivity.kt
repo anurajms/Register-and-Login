@@ -19,8 +19,6 @@ class SignedInActivity : AppCompatActivity() {
             finish()
 
         }
-        fun onUpdateNameInDatabase(veiw: View){
-            startActivity(Intent(this,DatabaseActivity::class.java))
-        }
+
     }
 }
